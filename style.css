@@ -1,0 +1,66 @@
+/*isso vai antes de /b:skin*/
+.kawaiiii span{ 
+  font-size:5em;
+  font:bold 7.5vw/1.6 'Lobster', cursive;
+  user-select:none;
+ }
+ .kawaiiii:hover span { animation:bounce .6s; }
+ @keyframes bounce {
+   0%,100%{ transform:translate(0); }
+   25%{ transform:rotateX(20deg) translateY(2px) rotate(-3deg); }
+   50%{ transform:translateY(-20px) rotate(3deg) scale(1.1);  }
+ }
+ 
+ span:nth-child(4n) { color:rgb(152,255,244); text-shadow:1px 1px rgb(107,239,255), 2px 2px rgb(107,239,255), 3px 3px rgb(107,239,255), 4px 4px rgb(107,239,255); }
+ span:nth-child(4n-1) { color:rgb(255,217,252); text-shadow:1px 1px rgb(209,174,256), 2px 2px rgb(209,174,256), 3px 3px rgb(209,174,256), 4px 4px rgb(209,174,256); }
+ span:nth-child(4n-2) { color:rgb(255,216,216); text-shadow:1px 1px rgb(245,162,162), 2px 2px rgb(245,162,162), 3px 3px rgb(245,162,162), 4px 4px rgb(245,162,162); }
+ span:nth-child(4n-3) { color:rgb(171,228,255); text-shadow:1px 1px rgb(142,197,222), 2px 2px rgb(142,197,222), 3px 3px rgb(142,197,222), 4px 4px rgb(142,197,222); }
+ .kawaiiii span:nth-child(2){ animation-delay:.05s; }
+ .kawaiiii span:nth-child(3){ animation-delay:.1s; }
+ .kawaiiii span:nth-child(4){ animation-delay:.15s; }
+ .kawaiiii span:nth-child(5){ animation-delay:.2s; }
+ .kawaiiii span:nth-child(6){ animation-delay:.25s; }
+ .kawaiiii span:nth-child(7){ animation-delay:.3s; }
+ .kawaiiii span:nth-child(8){ animation-delay:.35s; }
+ .kawaiiii span:nth-child(9){ animation-delay:.4s; }
+ .kawaiiii span:nth-child(10){ animation-delay:.45s; }
+ .kawaiiii span:nth-child(11){ animation-delay:.5s; }
+ .kawaiiii span:nth-child(12){ animation-delay:.55s; }
+ .kawaiiii span:nth-child(13){ animation-delay:.6s; }
+ .kawaiiii span:nth-child(14){ animation-delay:.65s; }
+
+
+body {
+  background-color: pink;
+  overflow: hidden;
+  background-image: url(/imagens/1308905_3b231.gif);
+}
+
+.Login {
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.user, .pass {
+  margin-top: 20px;
+  color: rgb(223, 98, 119);
+  border-color: pink;
+}
+
+.enter {
+  display: block;
+  margin-top: 20px;
+  background-color: pink;
+  border: none;
+  padding: 7px;
+  border-radius: 3px;
+  color: black;
+  box-shadow: 1px;
+}
+
+.erro {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARABÉNS</title>
+  <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+
+  <div class="mensagem">
+  <img src="/imagens/Sanrio_Characters_Hello_Kitty_AnimatedGif011.gif" alt="hello kitty" width="40px" class="kity">
+  <span class='colorido'>PARABÉNS</span>
+
+  <p>Você conquistou meu coração!</p>
+  <p>Eu sou todo seu agora.</p>
+  <p>Mas antes de começarmos, vamos fazer um teste.</p>
+  <p>Abaixo, você verá um complicado e difícil jogo de pedra, papel e tesoura.</p>
+  <p>Apenas os melhores conseguem passar; não será nada fácil.</p>
+  <p>Espero que consiga, te desejo toda sorte do mundo.</p>
+  <p>Se conseguir, de fato, você terá ganho meu coração.</p>
+  </div>
+
+  <h2>Jogo Pedra, Papel ou Tesoura</h2>
+  <p class="escolha">Escolha uma opção:</p>
+  <div class="button-container" id="buttonContainer">
+    <button onclick="playGame('rock')">Pedra</button>
+    <button onclick="playGame('paper')">Papel</button>
+    <button onclick="playGame('scissors')">Tesoura</button>
+  </div>
+
+  <div id="resultadoDiv"></div>
+  <button id="playAgainButton" onclick="playAgain()" style="display: none;">Jogar Novamente</button>
+  <button id="specialButton" style="display: none;" onclick="goToSpecialPage()">Continuar</button>
+
+  <script src="js/jogo.js"></script>
+</body>
+</html>
+
+
+
